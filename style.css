@@ -2,7 +2,7 @@ body{
     background-color: rgb(34, 34, 34);
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    max-width: 1200px;
+
     margin: 0 auto;
     padding: 15px;
 }
@@ -87,4 +87,10 @@ form[type="submit"]:hover{
 
 ul{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#nos img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
 }
