@@ -25,3 +25,55 @@
     font-size: 1rem; 
     color: #666; 
 }
+
+html, .footer { 
+    scroll-behavior: smooth; 
+    height: 100%; 
+    margin: 0 auto; 
+    padding: 0; 
+  }
+#nav{ 
+    display: flex; 
+    justify-content: space-around; 
+    padding-right: 20px; 
+} 
+#nav a { 
+    margin: 0 10px; 
+ 
+}
+footer { 
+    background-color: #333; /* Cor */ 
+    color: #fff; /* Cor do texto  */ 
+    padding: 20px 0; /* Espaçamento interno (topo/baixo) do rodapé */ 
+  } 
+   
+  .footer-content { 
+    max-width: 1200px; /* Largura máxima do conteúdo do rodapé */ 
+    margin: 0 auto; /* Centralizar o conteúdo horizontalmente */ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  } 
+   
+  .social-media { 
+    display: flex; 
+  } 
+   
+  .social-link { 
+    color: #fff; 
+    text-decoration: none; 
+    margin-right: 20px; 
+  } 
+   
+  .team-members { 
+    text-align: center; 
+  } 
+   
+  ul { 
+    list-style: none; 
+    padding: 0; 
+  } 
+   
+  li { 
+    margin: 5px 0; 
+  }
